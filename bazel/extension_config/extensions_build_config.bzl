@@ -510,8 +510,8 @@ ISTIO_DISABLED_EXTENSIONS = [
 ]
 
 ISTIO_ENABLED_CONTRIB_EXTENSIONS = [
-    "envoy.filters.http.golang",
-    "envoy.filters.network.golang",
+#    "envoy.filters.http.golang",
+#    "envoy.filters.network.golang",
     "envoy.filters.network.mysql_proxy",
     "envoy.filters.network.postgres_proxy",
     "envoy.filters.network.sip_proxy",
